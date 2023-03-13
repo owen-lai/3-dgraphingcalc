@@ -4,9 +4,11 @@
         <title>Demo for 3DCalc</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://cdn.babylonjs.com/babylon.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.6.0/math.js" integrity="sha512-RefYJFvLbj6WnGkdf40i7tlnvORh5VhCXuyaYRrj0hu5y0aHMCO1ROPLnRfMzbZ7SJqCYaQ92EAsGf9OyY9BNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
     <body>
         <script src = demoscript.js type="module"></script>
+        <script> console.log(math.evaluate('sin(45 deg) ^ 2')) </script>
         <canvas id="renderCanvas"> </canvas>
     </body>
 </html>
